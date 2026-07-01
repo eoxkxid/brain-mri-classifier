@@ -216,3 +216,30 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+# Added for project-specific needs
+
+# Project data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model checkpoints and large artifacts
+models/*
+!models/.gitkeep
+!models/README.md
+*.pt
+*.pth
+*.ckpt
+
+# Kaggle credentials
+kaggle.json
+.kaggle/
+
+# Experiment logs
+runs/
+wandb/
+mlruns/.vscode/
