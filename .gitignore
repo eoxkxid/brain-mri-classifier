@@ -242,4 +242,5 @@ kaggle.json
 # Experiment logs
 runs/
 wandb/
-mlruns/.vscode/
+mlruns/
+.vscode/
