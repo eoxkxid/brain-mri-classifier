@@ -46,7 +46,7 @@ def main() -> None:
         samples,
         test_size=0.30,
         random_state=SEED,
-        stratify=samples["label"],
+        stratify=samples["label"], # 각 클래스 비율을 유지하면서 분리
     )
 
     # 남은 30%를 validation 15%, test 15%로 분리
