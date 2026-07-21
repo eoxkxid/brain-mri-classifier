@@ -10,7 +10,7 @@ class BaselineCNN(nn.Module):
                 in_channels=3,
                 out_channels=32,
                 kernel_size=3,
-                padding=1
+                padding=1,
                 bias=False
             ),
             nn.BatchNorm2d(32),
